@@ -1,0 +1,9 @@
+* Compilar o analizador sintático recursivo
+#+BEGIN_SRC shell
+g++ analizer.cpp -o analizer
+#+END_SRC
+
+* Para compilar o analizador sintático recursivo em árvore
+#+BEGIN_SRC shell 
+g++ analizer_syntaxTree.cpp syntaxTree.cpp -o analizer2
+#+END_SRC
