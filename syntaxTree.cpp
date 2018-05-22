@@ -2,6 +2,7 @@
 
 #define TRUE 1
 #define FALSE 0
+#define ERROR -999
 
 
 typedef enum { NUMBER, OPERATOR } typeNode;	
@@ -67,5 +68,5 @@ int calcSyntaxTree(syntaxTree *node){
 	}
   }
 
-  return -999;
+  return ERROR;
 }
